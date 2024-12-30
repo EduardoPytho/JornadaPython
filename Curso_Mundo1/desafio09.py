@@ -1,0 +1,2 @@
+tabuada = int(input('==== GERADOR DE TABUADA ==== \n \n Escreva um número inteiro: '))
+print(f' ----------------- \n {tabuada} x 1 = {tabuada*1:1}\n {tabuada} x 2 = {tabuada*2:1}\n {tabuada} x 3 = {tabuada*3:1}\n {tabuada} x 4 = {tabuada*4:1}\n {tabuada} x 5 = {tabuada*5:1}\n {tabuada} x 6 = {tabuada*6:1}\n {tabuada} x 7 = {tabuada*7:1}\n {tabuada} x 8 = {tabuada*8:1}\n {tabuada} x 9 = {tabuada*9:1}\n {tabuada} x 10 = {tabuada*10:1}\n -----------------')
