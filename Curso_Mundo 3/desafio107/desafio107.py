@@ -1,0 +1,11 @@
+import mdl_moeda
+ask = float((str(input('Digite o valor: R$'))).replace(',','.'))
+percent = int(input('Digite a porcentagem (obrigatório): '))
+print('-='*30)
+print(f'A metado do valor {ask} é {mdl_moeda.metade(ask)}')
+print('-='*30)
+print(f'O dobro do valor {ask} é {mdl_moeda.dobro(ask)}')
+print('-='*30)
+print(f'Aumentando em {percent}%, o valor {ask} é {mdl_moeda.aumentar(ask,percent)}')
+print('-='*30)
+print(f'Diminuindo em {percent}%, o valor {ask} é {mdl_moeda.diminuir(ask,percent)}')

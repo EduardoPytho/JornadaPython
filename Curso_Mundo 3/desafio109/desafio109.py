@@ -1,0 +1,11 @@
+from moedas3 import *
+ask = float(input('Digite o valor: R$'))
+percent = int(input('Digite a porcentagem (obrigatório): '))
+print('-='*30)
+print(f'A metado do valor {moeda(ask)} é {metade(ask,True)}')
+print('-='*30)
+print(f'O dobro do valor {moeda(ask)} é {dobro(ask,True)}')
+print('-='*30)
+print(f'Aumentando em {percent}%, o valor {moeda(ask)} é {aumentar(ask,percent,True)}')
+print('-='*30)
+print(f'Diminuindo em {percent}%, o valor {moeda(ask)} é {diminuir(ask,percent,True)}')
